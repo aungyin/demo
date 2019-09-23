@@ -1,0 +1,25 @@
+{
+  "products": [
+    { "product_id": 1, "product_name": "Product 1", "brand_id": "1", "category_id": "1", "price": "10", "tags": "man,outdoor" },
+    { "product_id": 2, "product_name": "Product 2", "brand_id": "2", "category_id": "2", "price": "30", "tags": "woman,vintage" },
+    { "product_id": 3, "product_name": "Product 3", "brand_id": "3", "category_id": "3", "price": "50", "tags": "woman,accessories" }
+  ],
+  "comments": [
+    { "comment_id": 1, "body": "some comment", "product_id": 1 },
+    { "comment_id": 2, "body": "some comment", "product_id": 1 }
+  ],
+  "brands": [
+      { "brand_id": 1, "brand_name": "Softbank" },
+      { "brand_id": 2, "brand_name": "Au" },
+      { "brand_id": 3, "brand_name": "Docomo" }
+  ],
+  "categories": [
+      { "category_id": 1, "category_name": "Fashion" },
+      { "category_id": 2, "category_name": "Lifestyle" },
+      { "category_id": 3, "category_name": "Electronic" },
+      { "category_id": 4, "category_name": "Beauty" }
+  ],
+  "profile": {
+    "name": "demo"
+  }
+}
